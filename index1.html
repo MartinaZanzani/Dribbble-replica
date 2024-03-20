@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/54c8c90fcc.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Dribbble</title>
+</head>
+
+<body>
+
+    <!--HEADER-->
+    <header class="bg-[#f8f7f4]">
+        <nav>
+            <!-- mobile first-->
+            <div class="h-[100px] flex justify-between items-center">
+
+                <!--Burger menù + Logo -->
+                <div class="flex justify-center items-center md:px-[30px]">
+                    <!--burger menù-->
+                    <i class="fa-solid fa-bars-staggered px-[30px]  lg:hidden"></i>
+                    <!--logo-->
+                    <img class="h-[27px] w-[96px] xl:hidden" src="assets/logo.png" alt="Logo Dribble">
+                    <!--iPad Navbar-->
+                    <div class="hidden xl:flex">
+                        <span class="pl-[30px] pr-[30px] text-[#0D0C22] cursor-pointer">Find designers </span>
+                        <span class="pr-[30px] text-[#0D0C22] cursor-pointer">Inspiration</span>
+                        <span class="pr-[30px] text-[#0D0C22] cursor-pointer">Courses</span>
+                        <span class="pr-[30px] text-[#0D0C22] cursor-pointer">Jobs</span>
+                        <span class="pr-[30px] text-[#0D0C22] cursor-pointer">Go Pro</span>
+
+                    </div>
+                    <!-- logo Desktop-->
+                    <img class="h-[27px] w-[96px] hidden xl:flex justify-between items-center ml-[200px]"
+                        src="assets/logo.png" alt="Logo Dribble">
+
+                </div>
+
+
+                <!--search + sign up-->
+                <div class="flex justify-center items-center pr-[30px]">
+                    <!--search mobile first-->
+                    <i
+                        class="fa-solid fa-magnifying-glass text-[#6A6D7A] cursor-pointer pr-[30px] md:hidden xl:hidden"></i>
+                    <!-- search iPad + Desktop-->
+                    <div
+                        class="w-[244px] h-[48px] bg-[#fff] rounded-3xl hidden md:flex items-center justify-start pl-[10px] mr-[10px] cursor-pointer">
+                        <i class="fa-solid fa-magnifying-glass text-[#6A6D7A] cursor-pointer pr-[30px]"></i>
+                        <span class="text-[#6A6D7A]">Search...</span>
+
+                    </div>
+                    <!--btn-->
+                    <div
+                        class="w-[100px] h-[48px] rounded-3xl bg-[#0D0C22] flex items-center justify-center cursor-pointer">
+                        <span class="text-[#fff] font-semibold text-[14px]">
+                            Sign Up
+                        </span>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </nav>
+    </header>
+
+    <!--MAIN-->
+    <main>
+
+        <!--First section - h1 -->
+        <section class="px-[24px] pt-[80px] bg-[#f8f7f4]">
+            <!--btn n1-->
+
+            <div class="flex justify-center items-center">
+                <p
+                    class="bg-[#fcace8] w-[333px] h-[40px] rounded-3xl flex justify-center items-center text-center cursor-pointer">
+                    Over 3 million ready-to-work creatives!
+                </p>
+            </div>
+
+
+            <!--h1-->
+            <h1 class="text-[48px] md:text-[72px] flex justify-center items-center text-center mt-[40px] mb-[24px]">
+                The world’s <br class="xl:hidden"> destination <br class="hidden xl:inline"> for <br class="xl:hidden">
+                design
+            </h1>
+
+            <!-- p -->
+            <div class="flex items-center justify-center">
+                <p class="text-[18px] flex justify-center items-center">
+                    Get inspired by the work of millions of <br class="md:hidden"> top-rated designers & agencies around
+                    <br class="md:hidden"> the world
+                </p>
+            </div>
+
+            <!-- btn n2-->
+            <div class="flex justify-center items-center mt-[32px]">
+                <div
+                    class="w-[125px] h-[56px] bg-[#0D0C22] rounded-full flex justify-center items-center text-center cursor-pointer">
+                    <span class="text-[#fff]">
+                        Get started
+                    </span>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <!-- CAROSELLO 1-->
+        
+    <section class="animation pt-[60px] h-[373px] relative grid grid-cols-6 grid-rows-1 gap-[30px]">
+
+
+        <div class="bgImg-1 relative">
+
+            <div class="absolute bottom-0">
+                <div class="ml-[20px] mb-[5px] flex-col">
+                    <div class="text-[#fff] text-[12px] ">
+                        Roger Moore
+                    </div>
+                    <div class="text-[#fff] text-[12px] ">
+                        Illustrator
+                    </div>
+                </div>
+
+                <div class="flex ml-[10px] mb-[5px]">
+                    <span
+                        class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center text-[12px] ">Graphic
+                        design</span>
+                    <span
+                        class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center ml-[10px] text-[12px] ">Illustrations</span>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bgImg-2 relative">
+
+            <div class="absolute bottom-0">
+                <div class="ml-[20px] mb-[5px] flex-col">
+                    <div class="text-[#fff] text-[12px] ">
+                        Roger Moore
+                    </div>
+                    <div class="text-[#fff] text-[12px] ">
+                        Illustrator
+                    </div>
+                </div>
+
+                <div class="flex ml-[10px] mb-[5px]">
+                    <span
+                        class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center text-[12px] ">Graphic
+                        design</span>
+                    <span
+                        class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center ml-[10px] text-[12px] ">Illustrations</span>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bgImg-3 relative">
+
+            <div class="absolute bottom-0">
+                <div class="ml-[20px] mb-[5px] flex-col">
+                    <div class="text-[#fff] text-[12px] ">
+                        Roger Moore
+                    </div>
+                    <div class="text-[#fff] text-[12px] ">
+                        Illustrator
+                    </div>
+                </div>
+
+                <div class="flex ml-[10px] mb-[5px]">
+                    <span
+                        class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center text-[12px] ">Graphic
+                        design</span>
+                    <span
+                        class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center ml-[10px] text-[12px] ">Illustrations</span>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bgImg-4 relative">
+
+            <div class="absolute bottom-0">
+                <div class="ml-[20px] mb-[5px] flex-col">
+                    <div class="text-[#fff] text-[12px] ">
+                        Roger Moore
+                    </div>
+                    <div class="text-[#fff] text-[12px] ">
+                        Illustrator
+                    </div>
+                </div>
+
+                <div class="flex ml-[10px] mb-[5px]">
+                    <span
+                        class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center text-[12px] ">Graphic
+                        design</span>
+                    <span
+                        class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center ml-[10px] text-[12px] ">Illustrations</span>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bgImg-5 relative">
+
+            <div class="absolute bottom-0">
+                <div class="ml-[20px] mb-[5px] flex-col">
+                    <div class="text-[#fff] text-[12px] ">
+                        Roger Moore
+                    </div>
+                    <div class="text-[#fff] text-[12px] ">
+                        Illustrator
+                    </div>
+                </div>
+
+                <div class="flex ml-[10px] mb-[5px]">
+                    <span
+                        class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center text-[12px] ">Graphic
+                        design</span>
+                    <span
+                        class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center ml-[10px] text-[12px] ">Illustrations</span>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bgImg-6 relative">
+
+            <div class="absolute bottom-0">
+                <div class="ml-[20px] mb-[5px] flex-col">
+                    <div class="text-[#fff] text-[12px] ">
+                        Roger Moore
+                    </div>
+                    <div class="text-[#fff] text-[12px] ">
+                        Illustrator
+                    </div>
+                </div>
+
+                <div class="flex ml-[10px] mb-[5px]">
+                    <span
+                        class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center text-[12px] ">Graphic
+                        design</span>
+                    <span
+                        class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center ml-[10px] text-[12px] ">Illustrations</span>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+        <!-- SECTION GRID-->
+
+        <section class="bg-[#fff] mt-[72px]">
+            <!-- titolo -->
+            <div class="flex justify-center items-center px-[24px] mb-[48px]">
+                <p class="text-[35px] text-[#0D0C22]">Explore inspiring design</p>
+            </div>
+
+            <!-- grid img-->
+
+            <div
+                class="grid md:grid-cols-2 md:grid-rows-8 md:gap-[30px] xl:grid-cols-4 xl:grid-rows-4 xl:gap-[30px] px-[20px] md:px-[32px] xl:px-[72px]">
+
+                <!--img container-->
+                <div class=" flex-col justify-center items-center">
+                    <div class="flex justify-center items-center hover:bg-gradient-to-t from-[#4a4a4a] to-transparent">
+                        <img src="assets/img-1.png" alt="img" class="rounded-2xl w-full">
+                    </div>
+
+                    <div class="flex justify-between items-center">
+                        <div class="flex justify-center items-center">
+                            <img class="w-[24px] h-[24px] rounded-full cursor-pointer mr-[8px]" src="assets/a.jpg"
+                                alt="profilo">
+                            <span class="cursor-pointer mr-[8px]">Jeremy White</span>
+                            <i
+                                class="fa-solid fa-bars-progress cursor-pointer ml-[10px] text-[#9e9ea7] hover:text-[#0D0C22]"></i>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-heart cursor-pointer hover:text-[#fcace8] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">170</span>
+                            <i class="fa-solid fa-eye ml-[8px] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">14.8k</span>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <!--img container-->
+                <div class=" flex-col justify-center items-center">
+                    <div class="flex justify-center items-center">
+                        <img src="assets/img-2.jpg" alt="img" class="rounded-2xl w-full">
+                    </div>
+
+                    <div class="flex justify-between items-center ">
+                        <div class="flex justify-center items-center">
+                            <img class="w-[24px] h-[24px] rounded-full cursor-pointer mr-[8px]" src="assets/b.jpg"
+                                alt="profilo">
+                            <span class="cursor-pointer mr-[8px]">Jeremy White</span>
+                            <i
+                                class="fa-solid fa-bars-progress cursor-pointer ml-[10px] text-[#9e9ea7] hover:text-[#0D0C22]"></i>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-heart cursor-pointer hover:text-[#fcace8] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">170</span>
+                            <i class="fa-solid fa-eye ml-[8px] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">14.8k</span>
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+
+                <!--img container-->
+                <div class=" flex-col justify-center items-center">
+                    <div class="flex justify-center items-center">
+                        <img src="assets/img-3.png" alt="img" class="rounded-2xl w-full">
+                    </div>
+
+                    <div class="flex justify-between items-center ">
+                        <div class="flex justify-center items-center">
+                            <img class="w-[24px] h-[24px] rounded-full cursor-pointer mr-[8px]" src="assets/c.jpg"
+                                alt="profilo">
+                            <span class="cursor-pointer mr-[8px]">Jeremy White</span>
+                            <i
+                                class="fa-solid fa-bars-progress cursor-pointer ml-[10px] text-[#9e9ea7] hover:text-[#0D0C22]"></i>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-heart cursor-pointer hover:text-[#fcace8] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">170</span>
+                            <i class="fa-solid fa-eye ml-[8px] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">14.8k</span>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <!--img container-->
+                <div class=" flex-col justify-center items-center">
+                    <div class="flex justify-center items-center">
+                        <img src="assets/img-4.png" alt="img" class="rounded-2xl w-full">
+                    </div>
+
+                    <div class="flex justify-between items-center ">
+                        <div class="flex justify-center items-center">
+                            <img class="w-[24px] h-[24px] rounded-full cursor-pointer mr-[8px]" src="assets/a.jpg"
+                                alt="profilo">
+                            <span class="cursor-pointer mr-[8px]">Jeremy White</span>
+                            <i
+                                class="fa-solid fa-bars-progress cursor-pointer ml-[10px] text-[#9e9ea7] hover:text-[#0D0C22]"></i>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-heart cursor-pointer hover:text-[#fcace8] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">170</span>
+                            <i class="fa-solid fa-eye ml-[8px] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">14.8k</span>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <!--img container-->
+                <div class=" flex-col justify-center items-center">
+                    <div class="flex justify-center items-center">
+                        <img src="assets/img-5.png" alt="img" class="rounded-2xl w-full">
+                    </div>
+
+                    <div class="flex justify-between items-center ">
+                        <div class="flex justify-center items-center">
+                            <img class="w-[24px] h-[24px] rounded-full cursor-pointer mr-[8px]" src="assets/a.jpg"
+                                alt="profilo">
+                            <span class="cursor-pointer mr-[8px]">Jeremy White</span>
+                            <i
+                                class="fa-solid fa-bars-progress cursor-pointer ml-[10px] text-[#9e9ea7] hover:text-[#0D0C22]"></i>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-heart cursor-pointer hover:text-[#fcace8] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">170</span>
+                            <i class="fa-solid fa-eye ml-[8px] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">14.8k</span>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <!--img container-->
+                <div class=" flex-col justify-center items-center">
+                    <div class="flex justify-center items-center">
+                        <img src="assets/img-6.jpg" alt="img" class="rounded-2xl w-full">
+                    </div>
+
+                    <div class="flex justify-between items-center ">
+                        <div class="flex justify-center items-center">
+                            <img class="w-[24px] h-[24px] rounded-full cursor-pointer mr-[8px]" src="assets/a.jpg"
+                                alt="profilo">
+                            <span class="cursor-pointer mr-[8px]">Jeremy White</span>
+                            <i
+                                class="fa-solid fa-bars-progress cursor-pointer ml-[10px] text-[#9e9ea7] hover:text-[#0D0C22]"></i>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-heart cursor-pointer hover:text-[#fcace8] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">170</span>
+                            <i class="fa-solid fa-eye ml-[8px] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">14.8k</span>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <!--img container-->
+                <div class=" flex-col justify-center items-center">
+                    <div class="flex justify-center items-center">
+                        <img src="assets/img-7.jpg" alt="img" class="rounded-2xl w-full">
+                    </div>
+
+                    <div class="flex justify-between items-center ">
+                        <div class="flex justify-center items-center">
+                            <img class="w-[24px] h-[24px] rounded-full cursor-pointer mr-[8px]" src="assets/a.jpg"
+                                alt="profilo">
+                            <span class="cursor-pointer mr-[8px]">Jeremy White</span>
+                            <i
+                                class="fa-solid fa-bars-progress cursor-pointer ml-[10px] text-[#9e9ea7] hover:text-[#0D0C22]"></i>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-heart cursor-pointer hover:text-[#fcace8] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">170</span>
+                            <i class="fa-solid fa-eye ml-[8px] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">14.8k</span>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <!--img container-->
+                <div class=" flex-col justify-center items-center">
+                    <div class="flex justify-center items-center">
+                        <img src="assets/img-8.png" alt="img" class="rounded-2xl w-full">
+                    </div>
+
+                    <div class="flex justify-between items-center ">
+                        <div class="flex justify-center items-center">
+                            <img class="w-[24px] h-[24px] rounded-full cursor-pointer mr-[8px]" src="assets/a.jpg"
+                                alt="profilo">
+                            <span class="cursor-pointer mr-[8px]">Jeremy White</span>
+                            <i
+                                class="fa-solid fa-bars-progress cursor-pointer ml-[10px] text-[#9e9ea7] hover:text-[#0D0C22]"></i>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-heart cursor-pointer hover:text-[#fcace8] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">170</span>
+                            <i class="fa-solid fa-eye ml-[8px] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">14.8k</span>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+                <!--img container-->
+                <div class=" flex-col justify-center items-center">
+                    <div class="flex justify-center items-center">
+                        <img src="assets/img-9.jpg" alt="img" class="rounded-2xl w-full">
+                    </div>
+
+                    <div class="flex justify-between items-center ">
+                        <div class="flex justify-center items-center">
+                            <img class="w-[24px] h-[24px] rounded-full cursor-pointer mr-[8px]" src="assets/a.jpg"
+                                alt="profilo">
+                            <span class="cursor-pointer mr-[8px]">Jeremy White</span>
+                            <i
+                                class="fa-solid fa-bars-progress cursor-pointer ml-[10px] text-[#9e9ea7] hover:text-[#0D0C22]"></i>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-heart cursor-pointer hover:text-[#fcace8] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">170</span>
+                            <i class="fa-solid fa-eye ml-[8px] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">14.8k</span>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+                <!--img container-->
+                <div class=" flex-col justify-center items-center">
+                    <div class="flex justify-center items-center">
+                        <img src="assets/img-10.png" alt="img" class="rounded-2xl w-full">
+                    </div>
+
+                    <div class="flex justify-between items-center ">
+                        <div class="flex justify-center items-center">
+                            <img class="w-[24px] h-[24px] rounded-full cursor-pointer mr-[8px]" src="assets/a.jpg"
+                                alt="profilo">
+                            <span class="cursor-pointer mr-[8px]">Jeremy White</span>
+                            <i
+                                class="fa-solid fa-bars-progress cursor-pointer ml-[10px] text-[#9e9ea7] hover:text-[#0D0C22]"></i>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-heart cursor-pointer hover:text-[#fcace8] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">170</span>
+                            <i class="fa-solid fa-eye ml-[8px] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">14.8k</span>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+                <!--img container-->
+                <div class=" flex-col justify-center items-center">
+                    <div class="flex justify-center items-center">
+                        <img src="assets/img-11.jpg" alt="img" class="rounded-2xl w-full">
+                    </div>
+
+                    <div class="flex justify-between items-center ">
+                        <div class="flex justify-center items-center">
+                            <img class="w-[24px] h-[24px] rounded-full cursor-pointer mr-[8px]" src="assets/a.jpg"
+                                alt="profilo">
+                            <span class="cursor-pointer mr-[8px]">Jeremy White</span>
+                            <i
+                                class="fa-solid fa-bars-progress cursor-pointer ml-[10px] text-[#9e9ea7] hover:text-[#0D0C22]"></i>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-heart cursor-pointer hover:text-[#fcace8] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">170</span>
+                            <i class="fa-solid fa-eye ml-[8px] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">14.8k</span>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+                <!--img container-->
+                <div class=" flex-col justify-center items-center">
+                    <div class="flex justify-center items-center">
+                        <img src="assets/img-12.png" alt="img" class="rounded-2xl w-full">
+                    </div>
+
+                    <div class="flex justify-between items-center ">
+                        <div class="flex justify-center items-center">
+                            <img class="w-[24px] h-[24px] rounded-full cursor-pointer mr-[8px]" src="assets/a.jpg"
+                                alt="profilo">
+                            <span class="cursor-pointer mr-[8px]">Jeremy White</span>
+                            <i
+                                class="fa-solid fa-bars-progress cursor-pointer ml-[10px] text-[#9e9ea7] hover:text-[#0D0C22]"></i>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-heart cursor-pointer hover:text-[#fcace8] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">170</span>
+                            <i class="fa-solid fa-eye ml-[8px] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">14.8k</span>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+                <!--img container-->
+                <div class=" flex-col justify-center items-center">
+                    <div class="flex justify-center items-center">
+                        <img src="assets/img-13.jpg" alt="img" class="rounded-2xl w-full">
+                    </div>
+
+                    <div class="flex justify-between items-center ">
+                        <div class="flex justify-center items-center">
+                            <img class="w-[24px] h-[24px] rounded-full cursor-pointer mr-[8px]" src="assets/a.jpg"
+                                alt="profilo">
+                            <span class="cursor-pointer mr-[8px]">Jeremy White</span>
+                            <i
+                                class="fa-solid fa-bars-progress cursor-pointer ml-[10px] text-[#9e9ea7] hover:text-[#0D0C22]"></i>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-heart cursor-pointer hover:text-[#fcace8] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">170</span>
+                            <i class="fa-solid fa-eye ml-[8px] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">14.8k</span>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+                <!--img container-->
+                <div class=" flex-col justify-center items-center">
+                    <div class="flex justify-center items-center">
+                        <img src="assets/img-14.jpg" alt="img" class="rounded-2xl w-full">
+                    </div>
+
+                    <div class="flex justify-between items-center ">
+                        <div class="flex justify-center items-center">
+                            <img class="w-[24px] h-[24px] rounded-full cursor-pointer mr-[8px]" src="assets/a.jpg"
+                                alt="profilo">
+                            <span class="cursor-pointer mr-[8px]">Jeremy White</span>
+                            <i
+                                class="fa-solid fa-bars-progress cursor-pointer ml-[10px] text-[#9e9ea7] hover:text-[#0D0C22]"></i>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-heart cursor-pointer hover:text-[#fcace8] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">170</span>
+                            <i class="fa-solid fa-eye ml-[8px] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">14.8k</span>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+                <!--img container-->
+                <div class=" flex-col justify-center items-center">
+                    <div class="flex justify-center items-center">
+                        <img src="assets/img-15.jpg" alt="img" class="rounded-2xl w-full">
+                    </div>
+
+                    <div class="flex justify-between items-center ">
+                        <div class="flex justify-center items-center">
+                            <img class="w-[24px] h-[24px] rounded-full cursor-pointer mr-[8px]" src="assets/a.jpg"
+                                alt="profilo">
+                            <span class="cursor-pointer mr-[8px]">Jeremy White</span>
+                            <i
+                                class="fa-solid fa-bars-progress cursor-pointer ml-[10px] text-[#9e9ea7] hover:text-[#0D0C22]"></i>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-heart cursor-pointer hover:text-[#fcace8] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">170</span>
+                            <i class="fa-solid fa-eye ml-[8px] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">14.8k</span>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+                <!--img container-->
+                <div class=" flex-col justify-center items-center">
+                    <div class="flex justify-center items-center">
+                        <img src="assets/img-16.png" alt="img" class="rounded-2xl w-full">
+                    </div>
+
+                    <div class="flex justify-between items-center ">
+                        <div class="flex justify-center items-center">
+                            <img class="w-[24px] h-[24px] rounded-full cursor-pointer mr-[8px]" src="assets/a.jpg"
+                                alt="profilo">
+                            <span class="cursor-pointer mr-[8px]">Jeremy White</span>
+                            <i
+                                class="fa-solid fa-bars-progress cursor-pointer ml-[10px] text-[#9e9ea7] hover:text-[#0D0C22]"></i>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-heart cursor-pointer hover:text-[#fcace8] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">170</span>
+                            <i class="fa-solid fa-eye ml-[8px] text-[#9e9ea7]"></i>
+                            <span class="ml-[8px] text-[#3D3D4E]">14.8k</span>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            </div>
+            <div class="flex justify-center items-center mb-[180px]">
+
+                <span
+                    class="w-[210px] h-[56px] border-[2px] border-[#0D0C22] rounded-full flex justify-center items-center mt-[48px] cursor-pointer">
+                    Browse more inspiration
+                </span>
+            </div>
+        </section>
+
+        <!--section yellow-->
+        <section class="bg-[#FFDA79] flex-col justify-center items-center py-[120px] px-[24px]">
+            <div class="flex justify-center text-center mb-[16px]">
+                <h2 class="text-[40px]">
+                    Find your next designer today
+                </h2>
+            </div>
+
+            <div class="flex justify-center items-center mb-[16px] xl:mx-[200px]">
+                <p class="text-[20px] flex justify-center text-center">
+                    The world’s leading brands use Dribbble to hire creative talent. <br> Browse millions of top-rated
+                    portfolios to find your perfect <br> creative match.
+                </p>
+            </div>
+
+            <div class="flex justify-center items-center mb-[26px]">
+                <span
+                    class="w-[166px] h-[56px] mr-[15px] bg-[#0D0C22] text-[#fff] rounded-full flex items-center justify-center text-[20px] ">Get
+                    started now</span>
+                <span
+                    class="w-[200px] h-[56px] bg-[#fff] text-[#0D0C22] rounded-full flex items-center justify-center text-[20px] ">Learn
+                    about hiring</span>
+            </div>
+
+            <div class="flex justify-center items-center text-[20px]">
+                Are you a designer?
+                <span class="cursor-pointer underline ml-[4px] text-[20px]">Join Dribbble</span>
+            </div>
+
+
+        </section>
+
+        <!-- carosello 2-->
+        <section class="animation pt-[60px] h-[373px] relative grid grid-cols-6 grid-rows-1 gap-[30px]">
+
+
+            <div class="bgImg2-1 relative">
+    
+                <div class="absolute bottom-0">
+                    <div class="ml-[20px] mb-[5px] flex-col">
+                        <div class="text-[#fff] text-[12px] ">
+                            Roger Moore
+                        </div>
+                        <div class="text-[#fff] text-[12px] ">
+                            Illustrator
+                        </div>
+                    </div>
+    
+                    <div class="flex ml-[10px] mb-[5px]">
+                        <span
+                            class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center text-[12px] ">Graphic
+                            design</span>
+                        <span
+                            class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center ml-[10px] text-[12px] ">Illustrations</span>
+    
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="bgImg2-2 relative">
+    
+                <div class="absolute bottom-0">
+                    <div class="ml-[20px] mb-[5px] flex-col">
+                        <div class="text-[#fff] text-[12px] ">
+                            Roger Moore
+                        </div>
+                        <div class="text-[#fff] text-[12px] ">
+                            Illustrator
+                        </div>
+                    </div>
+    
+                    <div class="flex ml-[10px] mb-[5px]">
+                        <span
+                            class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center text-[12px] ">Graphic
+                            design</span>
+                        <span
+                            class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center ml-[10px] text-[12px] ">Illustrations</span>
+    
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="bgImg2-3 relative">
+    
+                <div class="absolute bottom-0">
+                    <div class="ml-[20px] mb-[5px] flex-col">
+                        <div class="text-[#fff] text-[12px] ">
+                            Roger Moore
+                        </div>
+                        <div class="text-[#fff] text-[12px] ">
+                            Illustrator
+                        </div>
+                    </div>
+    
+                    <div class="flex ml-[10px] mb-[5px]">
+                        <span
+                            class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center text-[12px] ">Graphic
+                            design</span>
+                        <span
+                            class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center ml-[10px] text-[12px] ">Illustrations</span>
+    
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="bgImg2-4 relative">
+    
+                <div class="absolute bottom-0">
+                    <div class="ml-[20px] mb-[5px] flex-col">
+                        <div class="text-[#fff] text-[12px] ">
+                            Roger Moore
+                        </div>
+                        <div class="text-[#fff] text-[12px] ">
+                            Illustrator
+                        </div>
+                    </div>
+    
+                    <div class="flex ml-[10px] mb-[5px]">
+                        <span
+                            class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center text-[12px] ">Graphic
+                            design</span>
+                        <span
+                            class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center ml-[10px] text-[12px] ">Illustrations</span>
+    
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="bgImg2-5 relative">
+    
+                <div class="absolute bottom-0">
+                    <div class="ml-[20px] mb-[5px] flex-col">
+                        <div class="text-[#fff] text-[12px] ">
+                            Roger Moore
+                        </div>
+                        <div class="text-[#fff] text-[12px] ">
+                            Illustrator
+                        </div>
+                    </div>
+    
+                    <div class="flex ml-[10px] mb-[5px]">
+                        <span
+                            class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center text-[12px] ">Graphic
+                            design</span>
+                        <span
+                            class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center ml-[10px] text-[12px] ">Illustrations</span>
+    
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="bgImg2-6 relative">
+    
+                <div class="absolute bottom-0">
+                    <div class="ml-[20px] mb-[5px] flex-col">
+                        <div class="text-[#fff] text-[12px] ">
+                            Roger Moore
+                        </div>
+                        <div class="text-[#fff] text-[12px] ">
+                            Illustrator
+                        </div>
+                    </div>
+    
+                    <div class="flex ml-[10px] mb-[5px]">
+                        <span
+                            class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center text-[12px] ">Graphic
+                            design</span>
+                        <span
+                            class="px-[5px] h-[30px] border-[2px] border-white rounded-full text-[#fff] flex justify-center items-center ml-[10px] text-[12px] ">Illustrations</span>
+    
+                    </div>
+                </div>
+            </div>
+    
+    
+    
+    
+        </section>
+
+
+        <!--Nav Bar - Footer-->
+        <section class="py-[44px] md:py-[44px] xl:pt-[72px] xl:pb-[44px]">
+
+            <nav>
+                <div class="xl:flex justify-between items-center xl:mx-[150px]">
+                <!--logo-->
+                <div class="flex justify-center items-center mb-[15px]">
+                    <img src="assets/logo.png" alt="logo" class=" cursor-pointer w-[104px]">
+                </div>
+
+                <!-- elementi -->
+                <div class="md:flex justify-center">
+                    <div class="flex justify-center items-center mb-[15px]">
+                        <span class="mr-[10px] text-[14px] text-[#0D0C22] font-semibold cursor-pointer">For designers</span>
+                        <span class="mr-[10px] text-[14px] text-[#0D0C22] font-semibold cursor-pointer">Hire talent</span>
+                        <span class="mr-[10px] text-[14px] text-[#0D0C22] font-semibold cursor-pointer">Inspiration</span>
+                    </div>
+                    <div class="flex justify-center items-center mb-[15px]">
+                        <span class="mr-[10px] text-[14px] text-[#0D0C22] font-semibold cursor-pointer">Advertising</span>
+                        <span class="mr-[10px] text-[14px] text-[#0D0C22] font-semibold cursor-pointer">Blog</span>
+                        <span class="mr-[10px] text-[14px] text-[#0D0C22] font-semibold cursor-pointer">About</span>
+                        <span class="mr-[10px] text-[14px] text-[#0D0C22] font-semibold cursor-pointer">Careers</span>
+                        <span class="mr-[10px] text-[14px] text-[#0D0C22] font-semibold cursor-pointer">Support</span>
+                    </div>
+                </div>
+                
+                <!--loghi-->
+                <div class="flex justify-center items-center">
+                    <i class="cursor-pointer fa-brands fa-twitter text-[#0D0C22] mr-[15px] w-[18px] h-[18px]"></i>
+                    <i class=" cursor-pointer fa-brands fa-square-facebook text-[#0D0C22] mr-[15px] w-[18px] h-[18px]"></i>
+                    <i class="cursor-pointer fa-brands fa-instagram text-[#0D0C22] mr-[15px] w-[18px] h-[18px]"></i>
+                    <i class="cursor-pointer fa-brands fa-pinterest text-[#0D0C22] w-[18px] h-[18px]"></i>
+                </div>
+            </div>
+
+            </nav>
+        </section>
+
+        <!--footer -->
+
+        <footer class="py-[44px] px-[24px] md:px-[32px] xl:px-[111px] md:flex justify-between 
+        ">
+            <div class="text-center">
+                <span class="text-[#6e6d7a] text-[14px] mr-[10px] ">&copy 2024 Dribbble</span>
+                <span class="text-[#6e6d7a] text-[14px] mr-[10px] cursor-pointer">Terms</span>
+                <span class="text-[#6e6d7a] text-[14px] mr-[10px] cursor-pointer">Privacy</span>
+                <span class="text-[#6e6d7a] text-[14px] mr-[10px] cursor-pointer">Cookies</span>
+            </div>
+
+            <div class="text-center">
+                <span class="text-[#6e6d7a] text-[14px] mr-[10px] cursor-pointer">Jobs</span>
+                <span class="text-[#6e6d7a] text-[14px] mr-[10px] cursor-pointer">Designers</span>
+                <span class="text-[#6e6d7a] text-[14px] mr-[10px] cursor-pointer">Freelancers</span>
+                <span class="text-[#6e6d7a] text-[14px] mr-[10px] cursor-pointer">Tags</span>
+                <span class="text-[#6e6d7a] text-[14px] mr-[10px] cursor-pointer">Places</span>
+                <span class="text-[#6e6d7a] text-[14px] mr-[10px] cursor-pointer">Resources</span>
+            </div>
+
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+</body>
+
+</html>

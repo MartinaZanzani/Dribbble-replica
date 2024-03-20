@@ -1,0 +1,152 @@
+/*
+Author: Martina Zanzani
+Title: Dribbble replica
+Date: 19/03/2024
+*/
+
+/*
+00. Utilities
+01. Background Images Carosello 1
+02. Carosello 2*/
+
+
+/* 00 */
+
+*{
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+body { font-family: "PT Serif", serif;}
+
+/* 01 */
+
+ .bgImg-1 {
+    height: 340px;
+    
+    background-image: url('assets/1.avif');
+    background-size: cover;
+    border-radius: 5%;
+
+
+}
+
+.bgImg-2 {
+    height: 340px;
+    
+    background-image: url('assets/2.avif');
+    background-size: cover;
+    border-radius: 5%;
+
+
+}
+
+.bgImg-3 {
+    height: 340px;
+    
+    background-image: url('assets/3.avif');
+    background-size: cover;
+    border-radius: 5%;
+
+
+}
+
+.bgImg-4 {
+    height: 340px;
+    
+    background-image: url('assets/4.avif');
+    background-size: cover;
+    border-radius: 5%;
+
+
+}
+
+.bgImg-5 {
+    height: 340px;
+    
+    background-image: url('assets/5.avif');
+    background-size: cover;
+    border-radius: 5%;
+
+
+}
+
+.bgImg-6 {
+    height: 340px;
+    
+    background-image: url('assets/6.avif');
+    background-size: cover;
+    border-radius: 5%;
+
+
+}
+
+.animation {
+    position: relative;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+} 
+
+
+@keyframes animation {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(calc(-250px * 7));
+	}
+}
+
+/* 02 */
+
+.bgImg2-1 {
+    height: 150px;    
+    background-image: url('assets/img-35.png');
+    background-size: cover;
+    border-radius: 5%;
+
+}
+
+.bgImg2-2 {
+    height: 150px;    
+    background-image: url('assets/img-34.jpg');
+    background-size: cover;
+    border-radius: 5%;
+
+}
+
+.bgImg2-3 {
+    height: 150px;    
+    background-image: url('assets/img-33.png');
+    background-size: cover;
+    border-radius: 5%;
+
+}
+
+.bgImg2-4 {
+    height: 150px;    
+    background-image: url('assets/img-32.jpg');
+    background-size: cover;
+    border-radius: 5%;
+
+}
+
+.bgImg2-5 {
+    height: 150px;    
+    background-image: url('assets/img-31.png');
+    background-size: cover;
+    border-radius: 5%;
+
+}
+
+.bgImg2-6 {
+    height: 150px;    
+    background-image: url('assets/img-30.jpeg');
+    background-size: cover;
+    border-radius: 5%;
+
+}
